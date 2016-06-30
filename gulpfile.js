@@ -52,8 +52,8 @@ gulp.task('images', function() {
 gulp.task('default', ['clean', 'css', 'scripts', 'images']);
 
 gulp.task('watch', ['browser-sync'], function (){
-  gulp.watch('src/scss/*.scss', ['css']);
-  gulp.watch('src/scripts/**/*.js',['scripts']);
+  gulp.watch('src/scss/**/*.scss', ['css']);
+  gulp.watch('src/scripts/*.js',['scripts']);
   gulp.watch('assets/img/*.png', ['images']);
 
   gulp.watch(['assets/**']).on('change', browserSync.reload);
