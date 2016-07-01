@@ -1,0 +1,87 @@
+/* MAIN CSS*/
+
+$header-color: #00BCD4;
+$footer-color: #232739;
+$width-wrapper: 1000px;
+$space: 50px;
+
+$shadow-default: 0 4px 8px rgba(0,0,0,.3);
+
+html, body{
+  font-size: 16px;
+  font-family: Verdana;
+  height: 100%;
+}
+
+.header-container {
+  width: 100%;
+  background-color: $header-color;
+  display: flex;
+  color: #FFF;
+  box-shadow: $shadow-default;
+
+  .title {
+    font-size: 2em;
+    margin: .67em 0;
+  }
+
+  .menu {
+    float: right;
+    width: 50%;
+  }
+
+  .menu ul li {
+    display: inline;
+  }
+
+  .menu ul li a {
+    width: 22%;
+    padding: 30px 0;
+    float: left;
+    color: #FFF;
+    text-align: center;
+    display: inline-block;
+    margin: 0 5px;
+  }
+}
+
+.wrapper {
+  width: $width-wrapper;
+  margin: 0 auto;
+}
+
+.content {
+  margin-top: $space;
+  margin-bottom: $space;
+}
+
+.footer-container {
+  width: 100%;
+  background-color: $footer-color;
+  position: absolute;
+  bottom: 0;
+  color: #FFF;
+}
+
+.footer {
+  padding: 50px 0;
+}
+
+.main {
+  position: relative;
+  min-height: 100%;
+}
+
+.main-container {
+  padding-bottom: 150px;
+}
+
+.main-container article{
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+article h1, article h2, article h3 {
+  margin: 10px 0;
+}

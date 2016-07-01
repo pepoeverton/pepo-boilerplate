@@ -1,0 +1,13 @@
+{
+  "name": "pepo-boilerplate",
+  "description": "Boilerplate for building web applications",
+  "main": "index.js",
+  "authors": [
+    "Everton Nunes"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "font-awesome": "fontawesome#^4.6.3"
+  }
+}

@@ -1,0 +1,46 @@
+/*  RESET CSS  */
+
+html, body {
+  height: 100%;
+  line-height: 1.2;
+}
+
+body {
+  min-width: 300px;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: none;
+}
+
+body,
+input, select, textarea {
+  font-size: 12px;
+  font-family: verdana, sans-serif;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #414B5D;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}

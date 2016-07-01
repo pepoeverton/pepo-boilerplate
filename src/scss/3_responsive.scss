@@ -1,0 +1,58 @@
+/*  MOBILE MENU  */
+
+$hoverHead-color: #0097A7;
+
+.nav-bar {
+  display: none;
+  float: right;
+  background: none;
+  cursor: pointer;
+  margin: 17px 0;
+  padding: 5px;
+}
+
+.header-container nav.responsive {
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-container {
+    .menu {
+      display: none;
+      width: 100%;
+    }
+    .menu.responsive ul li {
+      width: 100%;
+      float: left;
+    }
+    .menu.responsive ul li a {
+      width: 100%;
+      margin: 0;
+    }
+    .menu.responsive ul li a:hover {
+      background-color: $hoverHead-color;
+    }
+    a {
+      color: #FFF;
+    }
+    .nav-bar {
+      display: block;
+      right: 20px;
+      position: absolute;
+    }
+    .nav-bar:hover{
+      background: $hoverHead-color;
+    }
+    .bars-resp{
+      float: right;
+      display: block;
+      color: #FFF;
+    }
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  .wrapper {
+    width: 90%;
+  }
+}
